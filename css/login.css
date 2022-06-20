@@ -1,0 +1,43 @@
+.welcome-text {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.welcome-text__title {
+  font-size: 25px;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.welcome-text__text {
+  font-size: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.login-form input:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+.login-form__input {
+  height: 40px;
+  font-size: 17px;
+  margin-bottom: 15px;
+  border-style: none;
+}
+
+.login-form__input--text {
+  border-bottom: 1.5px solid;
+}
+
+.login-form__find {
+  text-align: center;
+}

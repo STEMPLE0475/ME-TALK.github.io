@@ -1,0 +1,85 @@
+.user {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0px 20px 0px 20px;
+}
+
+.user__img {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin: 10px 10px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user__icon {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.user__name {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.user__message {
+  display: flex;
+  flex-direction: column;
+}
+.user__message__who {
+  font-size: 17px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.user__message__text {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user__info {
+  position: absolute;
+  right: 1px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.user__info__time {
+  font-size: 12px;
+}
+
+.user__info__how {
+  color: white;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: tomato;
+  font-size: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1px;
+  position: relative;
+  right: -10px;
+  bottom: -7px;
+}
+
+.user__info i {
+  font-size: 30px;
+  color: var(--main-color);
+}
+
+.user__message__who--friends {
+  font-weight: lighter;
+  font-size: 20px;
+  padding-left: 5px;
+  margin-bottom: 0;
+}

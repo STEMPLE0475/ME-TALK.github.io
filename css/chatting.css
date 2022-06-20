@@ -1,0 +1,183 @@
+.chatting-title > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  margin: 20px 15px 20px 15px;
+}
+
+.chatting-title > div > div > i:last-child {
+  padding-left: 15px;
+}
+
+.chatting-title > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.chatting-title__text {
+  font-size: 25px;
+  position: relative;
+  top: -45px;
+  width: 100%;
+  text-align: center;
+}
+
+.today {
+  display: flex;
+  justify-content: center;
+}
+.today div {
+  width: 180px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  position: relative;
+  top: -10px;
+}
+
+.chatting-you {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0px 10px 20px 10px;
+}
+
+.chatting-you__img {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin: 10px 10px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatting-you__icon {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.chatting-you__context {
+  position: relative;
+  top: 20px;
+}
+
+.chatting-you__context span:first-child {
+  display: block;
+}
+
+.chatting-you__context div {
+  background-color: var(--color);
+  color: white;
+  font-weight: bold;
+  height: 32px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 15px 15px 15px;
+  margin-top: 5px;
+}
+
+.chatting-you__context > span:last-child {
+  position: relative;
+  right: -50px;
+  bottom: 17px;
+  font-size: 10px;
+}
+
+.chatting-me {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chatting-me div {
+  height: 34px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color);
+  color: white;
+  font-weight: bold;
+  border-radius: 15px 0px 15px 15px;
+  margin-right: 10px;
+}
+
+.chatting-me > span {
+  font-size: 10px;
+  position: relative;
+  bottom: -20px;
+  left: -5px;
+}
+
+.chatting-keybord {
+  position: fixed;
+  bottom: 0px;
+  background-color: var(--color);
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+}
+
+.chatting-keybord__writing {
+  width: 100%;
+  height: 35px;
+  margin-left: 15px;
+  margin-right: 20px;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chatting-keybord__writing input {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin: 0px 10px 0px 10px;
+  left: 10px;
+}
+
+.chatting-keybord__plus {
+  height: 25px;
+  width: 25px;
+  background-color: var(--color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  border-radius: 8px;
+  color: white;
+  flex-shrink: 0;
+}
+
+.chatting-keybord__writing > div {
+  display: flex;
+  align-items: center;
+}
+
+.chatting-keybord__writing > div > i {
+  font-size: 20px;
+  color: var(--color);
+}
+
+.chatting-keybord__writing > div > div {
+  font-size: 20px;
+  margin: 15px;
+  margin-right: 2px;
+  width: 30px;
+  height: 30px;
+  background-color: var(--color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  color: white;
+}

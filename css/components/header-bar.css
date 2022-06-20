@@ -1,0 +1,19 @@
+.header-bar {
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color);
+  color: white;
+  font-weight: bold;
+}
+
+.header-bar__title {
+  font-weight: bold;
+}
+
+.header-bar__image i {
+  padding: 5px;
+}

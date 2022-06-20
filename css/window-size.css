@@ -1,0 +1,19 @@
+.window-size {
+  background-color: var(--color);
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .window-size {
+    display: none;
+  }
+}

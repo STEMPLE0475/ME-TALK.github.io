@@ -1,0 +1,18 @@
+.status-bar {
+  padding: 6px;
+  display: flex;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+}
+
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column:nth-child(2) {
+  text-align: center;
+}
+
+.status-bar__column:last-child {
+  text-align: end;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/5d9649db33.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-quarter"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-text">
+      <h1 class="welcome-text__title">Welcome to ME-TALK</h1>
+      <span class="welcome-text__text"
+        >If you have a ME-TALK Account,<br />log in with your email or phone
+        number.</span
+      >
+    </header>
+
+    <form class="login-form" action="friends.html" method="get">
+      <input
+        class="login-form__input login-form__input--text"
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input
+        class="login-form__input login-form__input--text"
+        name="password"
+        type="password"
+        placeholder="Password"
+      />
+      <input
+        class="login-form__input login-form__input--button"
+        type="submit"
+        value="Log In"
+      />
+      <input
+        class="login-form__input login-form__input--button"
+        type="submit"
+        value="Sign Up"
+      />
+      <a href="#" class="login-form__find">Find ME-TALK Account or Password</a>
+    </form>
+
+    <div class="start-animation">
+      <span>ME-TALK</span>
+    </div>
+
+    <div class="window-size">
+      <span>Your screen is so big...</span>
+    </div>
+  </body>
+</html>

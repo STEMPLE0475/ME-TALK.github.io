@@ -1,0 +1,42 @@
+.setting-header {
+  padding: 20px 20px 20px 20px;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting-header__title {
+  font-weight: bold;
+}
+
+.setting-header__image i {
+  padding: 5px;
+}
+
+.setting__element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px 0px 10px;
+  font-size: 20px;
+  padding: 10px 0px 10px 0px;
+}
+
+.setting__element > span {
+  color: var(--main-color);
+}
+
+.setting__element__left {
+  display: flex;
+  align-items: center;
+  color: var(--main-color);
+}
+.setting__element__left div {
+  width: 40px;
+  height: 40px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
